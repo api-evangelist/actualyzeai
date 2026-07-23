@@ -1,8 +1,24 @@
 aid: actualyzeai
-name: Actualyzeai
-description: Actualyzeai is a company surfaced as a portfolio company of canaan-partners and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+name: Actualyze AI
+description: Actualyze AI is an enterprise AI governance and management company building tools that give
+  organizations the visibility and control they need to adopt AI at scale without slowing their teams
+  down. Founded by Rafi Khardalian (CEO) and Sean Lynch (CTO) — veterans of building and operating distributed
+  systems at global scale — the company designs for regulated industries from day one, embedding compliance,
+  defense-in-depth data protection, comprehensive audit logging, and continuous monitoring into the platform
+  rather than bolting it on. Surfaced as a portfolio company of Canaan Partners and added to the API Evangelist
+  network.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://actualyze.ai/og-default.png
 url: https://raw.githubusercontent.com/api-evangelist/actualyzeai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +26,58 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-team:
+- FN: Rafi Khardalian
+  role: Chief Executive Officer
+- FN: Sean Lynch
+  role: Chief Technology Officer
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Artificial Intelligence
+- AI Governance
+- Enterprise AI
+- Compliance
+- Security
+- Machine Learning
+- Observability
 apis: []
+common:
+- type: DomainSecurity
+  url: security/actualyzeai-domain-security.yml
+- type: Website
+  url: https://actualyze.ai
+- type: About
+  url: https://actualyze.ai/about
+- type: Blog
+  url: https://actualyze.ai/insights
+- type: Pricing
+  url: https://actualyze.ai/pricing
+- type: GitHubOrganization
+  url: https://github.com/actualyze-ai
+- type: Support
+  url: https://actualyze.ai/contact
+- type: PrivacyPolicy
+  url: https://actualyze.ai/privacy
+- type: TermsOfService
+  url: https://actualyze.ai/terms
+- type: LinkedIn
+  url: https://www.linkedin.com/company/actualyzeai/
+- type: X
+  url: https://x.com/actualyzeai
+- type: Instagram
+  url: https://www.instagram.com/actualyzeai
+- type: LLMsTxt
+  url: llms/actualyzeai-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
