@@ -52,7 +52,7 @@ tags:
 - Enterprise AI
 - Compliance
 - Security
-- Machine-Learning
+- Machine Learning
 - Observability
 tags_raw:
 - Company
@@ -63,6 +63,7 @@ tags_raw:
 - Security
 - Machine Learning
 - Observability
+- Machine-Learning
 apis: []
 common:
 - type: DomainSecurity
