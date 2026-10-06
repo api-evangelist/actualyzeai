@@ -44,7 +44,7 @@ x-team:
   role: Chief Technology Officer
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-10-06'
 tags:
 - Company
 - Artificial Intelligence
@@ -66,6 +66,10 @@ tags_raw:
 - Machine-Learning
 apis: []
 common:
+- url: https://actualyze.ai/insights/feed
+  type: Blog
+- url: https://actualyze.ai/feed.xml
+  type: BlogRSS
 - type: DomainSecurity
   url: security/actualyzeai-domain-security.yml
 - type: Website
