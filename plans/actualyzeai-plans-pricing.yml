@@ -1,0 +1,34 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://actualyze.ai/pricing
+sources:
+- https://actualyze.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: developer-api
+pricing_basis: per-call
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Usage-based token pricing with $499/month base including 3B tokens; overage $17 per 100M-token block.
+  Enterprise is custom, billed annually.
+plan_count: 2
+currency: USD
+plans:
+- name: Get Started
+  price_text: From $499 /month
+  price: 499
+  currency: USD
+  period: month
+  unit: plus usage, billed monthly
+  included_quota: Starts at 3B Actualyze tokens / month included
+  overage: $17 per additional 100M tokens processed
+- name: Enterprise
+  price_text: Custom
+  period: year
+  included_quota: Volume discounts available
