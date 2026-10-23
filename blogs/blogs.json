@@ -3,10 +3,7 @@
   "feeds": [
     {
       "source": "https://actualyze.ai/insights/feed",
-      "feed_url": "https://actualyze.ai/feed.xml",
-      "title": "",
-      "saved": 1,
-      "method": "discovered"
+      "error": "HTTPError"
     },
     {
       "source": "https://actualyze.ai/feed.xml",
@@ -30,6 +27,6 @@
       "method": "none"
     }
   ],
-  "post_count": 1,
-  "fetched": "2026-10-10T13:15:00Z"
+  "post_count": 7,
+  "fetched": "2026-10-17T14:53:57Z"
 }
